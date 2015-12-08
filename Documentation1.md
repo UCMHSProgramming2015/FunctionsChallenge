@@ -1,19 +1,27 @@
-# Name: 
+## Name: 
+areaOfCircle()
 
 ## Examples:
-Insert examples here.
+  float areaOfCircle(){
+    float r= 6;
+    float A= PI*sq(r);
+    return A;
+  }
 
-## Description:
-Insert description here
+## Description: 
+Enter radius, and the area of the circle is calculated.
 
 ## Syntax:
-Demonstrate syntax here
+  float areaOfCircle(){
+    float r= value;
+    float A= PI*sq(r);
+    return A;
+  }
 
 ##Parameters: 
-Name and describe parameters here
+value is radius ;
+A is calculated area
 
 ##Returns:
-What type of data does it return?
+Area (A) displayed in text
 
-##Other notes:
-Anything else?

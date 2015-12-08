@@ -1,19 +1,33 @@
 # Name: 
+kinematicAcceleration()
 
 ## Examples:
-Insert examples here.
+float kinematicAcceleration(){ 
+  float v0 = 0; 
+   float vf = 5; 
+   float t = 10; 
+   float a = (vf - v0)/t; 
+   return a; 
+ }  
 
 ## Description:
-Insert description here
+Enter intitial and final velocities and time, and calculated acceleration will be displayed
 
 ## Syntax:
-Demonstrate syntax here
+float kinematicAcceleration(){ 
+   float v0 = value1; 
+   float vf = value2; 
+   float t = value3; 
+   float a = (vf - v0)/t; 
+   return a; 
+ } 
 
 ##Parameters: 
-Name and describe parameters here
+value1 is initial velocity (v0);
+value2 is final velovity (vf);
+value3 is time (t);
+a is calculated acceleration;
 
 ##Returns:
-What type of data does it return?
+Acceleration (a) is displayed
 
-##Other notes:
-Anything else?

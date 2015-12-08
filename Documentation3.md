@@ -1,19 +1,24 @@
 # Name: 
+drawCursor();
 
 ## Examples:
-Insert examples here.
+void drawCursor(){ 
+   cursor.resize(50,50); 
+   image(cursor, mouseX-25, mouseY-25); 
+ } 
 
 ## Description:
-Insert description here
+Use an image as a second cursor
 
 ## Syntax:
-Demonstrate syntax here
+void drawCursor(){ 
+  image(cursor, mouseX-i, mouseY-j); 
+  } 
 
 ##Parameters: 
-Name and describe parameters here
+cursor is name of image;
+i is half of image's width;
+j is half of image's height;
 
 ##Returns:
-What type of data does it return?
-
-##Other notes:
-Anything else?
+void
