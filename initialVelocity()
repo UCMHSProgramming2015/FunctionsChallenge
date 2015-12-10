@@ -1,0 +1,21 @@
+# Name: 
+intialVelocity()
+
+## Examples:
+println(initialVelocty(1,0,0));
+
+rect(initialVelocity(1,0,0), 100,50,50);
+
+## Description:
+Finds the inital velocity by using a simple physics equation, with the knowlege of the final velocity, acceleration and displacement
+
+## Syntax:
+initialVelocity(vF,a,x)
+
+##Parameters: 
+vF     float: Final Velocity
+a      float: Acceleration
+x      float: Displacement
+
+##Returns:
+float

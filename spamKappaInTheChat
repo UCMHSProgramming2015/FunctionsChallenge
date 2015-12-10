@@ -1,0 +1,16 @@
+# Name: 
+spamKappaInTheChat()
+
+## Examples:
+spamKappaInTheChat();
+
+## Description:
+When the mouse is pressed, text will appear on screen along with the appearance of Kappa on the screen at random locations.
+There is no parameters, so '()' will be the only thing after this function
+
+## Syntax:
+spamKappaInTheChat();
+
+#Returns:
+void
+
